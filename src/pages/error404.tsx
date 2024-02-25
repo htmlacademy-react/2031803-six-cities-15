@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import {AppRoute} from "../const.ts";
+import {AppRoute} from '../const.ts';
 
 const Error404Page = () : React.JSX.Element => (
   <>
