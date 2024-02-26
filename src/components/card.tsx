@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 const Card = () : React.JSX.Element => (
   <article className="cities__card place-card">
@@ -32,7 +33,7 @@ const Card = () : React.JSX.Element => (
         </div>
       </div>
       <h2 className="place-card__name">
-        <a href="#">Beautiful &amp; luxurious apartment at great location</a>
+        <Link to='/'>Beautiful &amp; luxurious apartment at great location</Link>
       </h2>
       <p className="place-card__type">Apartment</p>
     </div>
